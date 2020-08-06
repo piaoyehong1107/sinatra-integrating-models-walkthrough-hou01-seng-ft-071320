@@ -6,4 +6,5 @@
 
 <h2>Consonants:<%= @analyzed_text.count_of_consonants %> </h2>
 <%= lett = @analyzed_text.most_used_letter %>
+<%= lett.key%>
 <h2>Most Common Letter: #{lett[:key]} used #{lett[:value]} times</h2>
