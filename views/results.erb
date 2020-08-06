@@ -7,7 +7,7 @@
 <h2>Consonants:<%= @analyzed_text.count_of_consonants %> </h2>
 <% lett = @analyzed_text.most_used_letter %>
 <% lett.each do |k, v|%>
-<%= @key=key %>
+<%= @key=k %>
 <%=@value=v %>
 <% end %>
 <h2> Most Common Letter: used times</h2>
